@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Introduction to CSS</title>
+    <title>Introduction to HTML</title>
     <meta content="This website is my personal website to adress my tutorials." name="description">
-    <meta property="og:image" content="img/about.jpg" />
+    <meta property="og:image" content="../img/about.jpg" />
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="icon" href="img/about.jpg"/>
     <!-- Our Custom CSS -->
-    <link rel="stylesheet" href="css/style2 - css.css">
+    <link rel="stylesheet" href="../css/style2.css">
     <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/about.jpg"/>
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.3/codemirror.min.css">
@@ -25,10 +25,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.3/mode/css/css.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.3/addon/hint/show-hint.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.3/addon/hint/html-hint.min.js"></script>
+
     <style type="text/css">
-       .active-selected{
+     .active-selected{
         background-color: white; 
-        color: #2d9dd5;
+        color: #353532;
     }
     .youtube-video{
         padding-bottom:56.25%; 
@@ -69,6 +70,7 @@
     padding: 10px
 }
 </style>
+
 </head>
 <body>
 
@@ -78,8 +80,8 @@
         <!-- Sidebar Holder -->
         <nav id="sidebar">
             <ul class="list-unstyled CTAs">
-                <li><a href="index.html" class="article">Back to home page</a></li>
-                <li><a href="documents/CSS.pptx" class="download" download="HTML introduction">Download the pptx</a></li>
+                <li><a href="../index.html" class="article">Back to home page</a></li>
+                <li><a href="../documents/HTML introduction.pptx" class="download" download="HTML introduction">Download the pptx</a></li>
             </ul>
                 <!--
                 <div class="sidebar-header">
@@ -106,45 +108,70 @@
                         </ul>
                     </li>
                 -->
-                <li><a href="" class="active-selected">Introduction to CSS</a></li>
-                <li><a href="#">CSS syntax</a></li>
-                <li><a href="#">How to add CSS</a></li>
-                <li><a href="#">CSS comment</a></li>
-                <li><a href="#">CSS simple selectors</a></li>
-                <li><a href="#">CSS combinator selectors</a></li>
-                <li><a href="#">CSS selectors</a></li>
-                <li><a href="#">CSS background</a></li>
-                <li><a href="#">CSS background repeat</a></li>
-                <li><a href="#">CSS background size</a></li>
-                <li><a href="#">CSS multiple background</a></li>
-                <li><a href="#">CSS background position</a></li>
-                <li><a href="#">CSS background attachment</a></li>
-                <li><a href="#">CSS background origin</a></li>
-                <li><a href="#">CSS background clip</a></li>
-                <li><a href="#">CSS background shorthand</a></li>
-                <li><a href="#">CSS linear gradient</a></li>
-                <li><a href="#">CSS radial gradient</a></li>
-                <li><a href="#">CSS conic gradient</a></li>
-                <li><a href="#">CSS background blend mode</a></li>
-                <li><a href="#">CSS border</a></li>
-                <li><a href="#">CSS border radius</a></li>
-                <li><a href="#">CSS border image</a></li>
-                <li><a href="#">CSS border image repeat</a></li>
-                <li><a href="#">CSS margin</a></li>
-                <li><a href="#">CSS padding</a></li>
-                <li><a href="#">CSS box model</a></li>
-                <li><a href="#">CSS outline</a></li>
-                <li><a href="#">CSS width</a></li>
-                <li><a href="#">CSS height</a></li>
-                <li><a href="#">CSS box sizing</a></li>
-                <li><a href="#">CSS units</a></li>
-                <li><a href="#">CSS font family</a></li>
-                <li><a href="#">CSS font style and weight</a></li>
-                <li><a href="#">CSS font stretch and size</a></li>
-                <li><a href="#">CSS font color and line height</a></li>
-                <li><a href="#">CSS font feature settings</a></li>
-                <li><a href="#">CSS google fonts</a></li>
-                
+                <li><a href="introduction-to-html.html" >Introduction to HTML</a></li>
+                <li><a href="editors.html">HTML editors</a></li>
+                <li><a href="page-source.html">HTML page source</a></li>
+                <li><a href="paragraph.html">HTML paragraph</a></li>
+                <li><a href="nested-elements.html">Nested HTML elements</a></li>
+                <li><a href="headings.html">HTML headings</a></li>
+                <li><a href="preformatted-text.html">HTML preformatted text</a></li>
+                <li><a href="hyperlinks.html">HTML hyperlinks</a></li>
+                <li><a href="target-for-links.html">HTML targets for links</a></li>
+                <li><a href="formatting-text.html">HTML formatting text</a></li>
+                <li><a href="comments.html">HTML comments</a></li>
+                <li><a href="images.html">HTML images</a></li>
+                <li><a href="attributes.html">HTML attributes</a></li>
+                <li><a href="images-as-link.html">HTML images as link</a></li>
+                <li><a href="table.html">HTML table</a></li>
+                <li><a href="list.html">HTML list</a></li>
+                <li><a href="class-and-id.html">HTML class & id</a></li>
+                <li><a href="division.html">HTML division</a></li>
+                <li><a href="link-bookmarks.html">HTML link bookmarks</a></li>
+                <li><a href="link.html">HTML link</a></li>
+                <li><a href="iframe.html">HTML iframe</a></li>
+                <li><a href="form-part-1.html">HTML form | part 1</a></li>
+                <li><a href="form-part-2.html" class="active-selected">HTML form | part 2</a></li>
+                <li><a href="form-part-3.html">HTML form | part 3</a></li>
+                <li><a href="form-part-4.html">HTML form | part 4</a></li>
+                <li><a href="form-part-5.html">HTML form | part 5</a></li>
+                <li><a href="form-part-6.html">HTML form | part 6</a></li>
+                <li><a href="form-part-7.html">HTML form | part 7</a></li>
+                <li><a href="form-part-8.html">HTML form | part 8</a></li>
+                <li><a href="form-part-9.html">HTML form | part 9</a></li>
+                <li><a href="file-path.html">HTML file path</a></li>
+                <li><a href="audio.html">HTML audio</a></li>
+                <li><a href="video.html">HTML video</a></li>
+                <li><a href="youtube.html">HTML youtube</a></li>
+                <li><a href="details.html">HTML details</a></li>
+                <li><a href="marquee.html">HTML marquee</a></li>
+                <li><a href="image-maps.html">HTML image maps</a></li>
+                <li><a href="meter.html">HTML meter</a></li>
+                <li><a href="picture.html">HTML picture</a></li>
+                <li><a href="track.html">HTML track</a></li>
+                <li><a href="ruby.html">HTML ruby</a></li>
+                <li><a href="navigation.html">HTML navigation</a></li>
+                <li><a href="header.html">HTML header</a></li>
+                <li><a href="footer.html">HTML footer</a></li>
+                <li><a href="article.html">HTML article</a></li>
+                <li><a href="section.html">HTML section</a></li>
+                <li><a href="aside.html">HTML aside</a></li>
+                <li><a href="wbr.html">HTML word break opportunity</a></li>
+                <li><a href="span.html">HTML span</a></li>
+                <li><a href="figure.html">HTML figure</a></li>
+                <li><a href="object.html">HTML object</a></li>
+                <li><a href="script.html">HTML script</a></li>
+                <li><a href="dialog.html">HTML dialog</a></li>
+                <li><a href="base.html">HTML base</a></li>
+                <li><a href="entities.html">HTML entities</a></li>
+                <li><a href="meta.html">HTML meta</a></li>
+                <li><a href="charset.html">HTML charset</a></li>
+                <li><a href="responsive.html">HTML responsive</a></li>
+                <li><a href="link-tag.html">HTML link tag</a></li>
+                <li><a href="svg.html">HTML SVG</a></li>
+                <li><a href="url-encoding.html">HTML URL encoding</a></li>
+                <li><a href="style.html">HTML style</a></li>
+                <li><a href="validation.html">HTML validation</a></li>
+
             </ul>
 
 
@@ -158,7 +185,7 @@
                 <div class="container-fluid">
 
                     <div class="navbar-header">
-                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn" style="background-color: #2d9dd5;">
+                        <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn" style="background-color: #353532;">
                             <i class="glyphicon glyphicon-align-left"></i>
                             <span style="font-size: 1.2em">Toggle sidebar</span>
                         </button>
@@ -168,11 +195,11 @@
 
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item ">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="introduction-to-html.html">HTML</a>
                             </li>
-                            <li class="nav-item active">
-                                <a class="nav-link" href="introduction-to-css.html">CSS</a>
+                            <li class="nav-item">
+                                <a class="nav-link" href="../css-t/introduction-to-css.html">CSS</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#myeditor">Try it yourself</a>
@@ -190,13 +217,13 @@
                             </li>
                         -->
                     </ul>
-                    
+
                 </div>
             </div>
         </nav>
 
         <div class="youtube-video">
-            <iframe src="https://www.youtube.com/embed/s3rYM8_JqUo" width='100%' height='100%' style="position:absolute; top:0; left: 0;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/LzYvmy3w6JE" width='100%' height='100%' style="position:absolute; top:0; left: 0;" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         <br>
         <div class="editor-container" id="myeditor">
@@ -222,6 +249,7 @@
     <iframe id="result"></iframe>
 </div>
 </div>
+
 
            <!--
             <h2>Collapsible Sidebar Using Bootstrap 3</h2>
