@@ -59,6 +59,9 @@ a, a:hover, a:focus {
     color: #fff;
     transition: all 0.3s;
 }
+.for-css{
+    background-color: #2d9dd5;
+}
 
 #sidebar.active {
     margin-left: -250px;
@@ -134,7 +137,7 @@ a.download {
     color: #353532;
 }
 a.article, a.article:hover {
-    background: #21221d !important;
+    background: #1e1f1b;
     color: #fff !important;
 }
 
